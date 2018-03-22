@@ -1,36 +1,47 @@
 .p1 {
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   color: black;
 }
 
 .p2 {
-  font-family: 'Yeseva One', cursive;
+  font-family: "Yeseva One", cursive;
   color: #696969;
 }
 
 @media only screen and (min-width: 25em) {
+
   .grid1 {
     background-color: lightgrey;
-    border-radius: 0.5em;
-    border-width: 0.2em;
+    border-radius: .5em;
+    border-width: .2em;
     border-style: solid;
   }
+
 }
 
 @media only screen and (min-width: 40em) {
+
+  .grid1 {
+    border-left: .1em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
+
   .p2 {
     color: yellow;
   }
   .scabbers {
     color: yellow;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
+
   .p2 {
     color: yellow;
   }
+
 }
